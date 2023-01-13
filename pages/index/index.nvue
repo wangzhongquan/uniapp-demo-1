@@ -8,6 +8,14 @@
 			:polyline="polyline" :include-points="includePoints">
 		</map> -->
 	</view>
+	<view>
+		<view>
+			<map></map>
+		</view>
+		<view>
+			<text>这里是fixed的文字</text>
+		</view>
+	</view>
 </template>
 
 <script>
