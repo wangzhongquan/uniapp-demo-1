@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Home"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/focus/focus",
+			"style": {
+				"navigationBarTitleText": "焦点",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/subscribe/subscribe",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "楼盘详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/focus/info/info",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "楼盘列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/phones/phones",
+			"style": {
+				"navigationBarTitleText": "热线列表",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^d-(.*)": "@/components/d-$1/d-$1.vue",
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83", //字体颜色
+		"selectedColor": "#e0228a", //选中时字体颜色
+		"borderStyle": "black", //底部的上边框线条
+		"backgroundColor": "#F8F8F8", //底部背景色
+		"fontSize": "12px", //字体大小
+		"spacing": "5px", //字体到图标的距离
+		"height": "60px", //底部高
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabicons/t1_n.png",
+				"selectedIconPath": "static/tabicons/t1_a.png"
+			}, {
+				"text": "焦点",
+				"pagePath": "pages/focus/focus",
+				"iconPath": "static/tabicons/t2_n.png",
+				"selectedIconPath": "static/tabicons/t2_a.png"
+			},
+			{
+				"text": "预约",
+				"pagePath": "pages/phones/phones",
+				"iconPath": "static/tabicons/t3_n.png",
+				"selectedIconPath": "static/tabicons/t3_a.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/info/info",
+				"iconPath": "static/tabicons/t4_n.png",
+				"selectedIconPath": "static/tabicons/t4_a.png"
+			}
+		]
+	}
+
+}

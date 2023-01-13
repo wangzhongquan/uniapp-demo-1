@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/detail/detail",
+    "pages/home/home",
+    "pages/focus/focus",
+    "pages/subscribe/subscribe",
+    "pages/info/info",
+    "pages/focus/info/info",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/phones/phones"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#e0228a",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "fontSize": "12px",
+    "spacing": "5px",
+    "height": "60px",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabicons/t1_n.png",
+        "selectedIconPath": "static/tabicons/t1_a.png"
+      },
+      {
+        "text": "焦点",
+        "pagePath": "pages/focus/focus",
+        "iconPath": "static/tabicons/t2_n.png",
+        "selectedIconPath": "static/tabicons/t2_a.png"
+      },
+      {
+        "text": "预约",
+        "pagePath": "pages/phones/phones",
+        "iconPath": "static/tabicons/t3_n.png",
+        "selectedIconPath": "static/tabicons/t3_a.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/info/info",
+        "iconPath": "static/tabicons/t4_n.png",
+        "selectedIconPath": "static/tabicons/t4_a.png"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "usingComponents": {}
+}

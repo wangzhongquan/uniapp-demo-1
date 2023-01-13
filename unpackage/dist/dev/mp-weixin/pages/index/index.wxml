@@ -1,0 +1,1 @@
+<view class="content"><view><button>00</button></view><map style="width:750rpx;height:50%;" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" polyline="{{polyline}}" include-points="{{includePoints}}"></map></view>

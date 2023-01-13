@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "楼盘列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "goods-list": "/component/goods-list"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "楼盘详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-grid": "/node-modules/@dcloudio/uni-ui/lib/uni-grid/uni-grid",
+    "uni-grid-item": "/node-modules/@dcloudio/uni-ui/lib/uni-grid-item/uni-grid-item",
+    "uni-card": "/node-modules/@dcloudio/uni-ui/lib/uni-card/uni-card",
+    "uni-popup": "/node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup",
+    "uni-swiper-dot": "/node-modules/@dcloudio/uni-ui/lib/uni-swiper-dot/uni-swiper-dot"
+  }
+}
